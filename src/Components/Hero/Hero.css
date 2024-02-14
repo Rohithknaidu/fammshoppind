@@ -1,0 +1,86 @@
+.hero{
+    height: 100vh;
+    background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
+    display: flex;
+}
+.hero-left{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+    margin-top:-200px;
+}
+.hero-left h2{
+    color:#090909 ;
+    font-size: 26px;
+    font-weight: 700;
+}
+.hero-left p{
+    color: #171717;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.hero-hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-hand-icon img {
+    width: 105px;
+}
+
+.hero-latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 310px;
+    height: 70px;
+    border-radius: 50px;
+    margin-top:10px ;
+    background: #ff4141;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    position: relative;
+    margin-left: -20px;
+}
+
+.hero-latest-btn .latest-collections-box {
+    background-color: #ff4141; /* Match background color with button */
+    padding: 5px 10px; /* Adjust padding as needed */
+    border-radius: 10px; /* Adjust border radius as needed */
+}
+
+/* Style for the arrow icon */
+.hero-latest-btn img {
+    background-color: #ff4141; /* Match background color with button */
+    padding: 5px; /* Adjust padding as needed */
+    border-radius: 50%; /* Make it circular */
+    position: absolute; /* Position the arrow icon */
+    right: 10px; /* Adjust right positioning as needed */
+}
+
+.small-img {
+    width: 50px;
+    height: 50px;
+    background: #ff4141;
+}
+
+.hero-right{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-right img{
+    margin-bottom: 150px;
+    width: 500px;
+    height:500px;
+}
