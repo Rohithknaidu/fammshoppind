@@ -36,22 +36,22 @@ let data_product = [
         new_price: 50.0,
         old_price: 70.5,
     },
-    // {
-    //     id: 5,
-    //     name: "Shirt",
-    //     category: "women",
-    //     image: p1, // Add .default after the imported image variable
-    //     new_price: 50.0,
-    //     old_price: 70.5,
-    // },
-    // {
-    //     id: 6,
-    //     name: "pant",
-    //     category: "men",
-    //     image: p2, // Add .default after the imported image variable
-    //     new_price: 50.0,
-    //     old_price: 70.5,
-    // },
+    {
+        id: 5,
+        name: "Shirt",
+        category: "women",
+        image: p1, // Add .default after the imported image variable
+        new_price: 50.0,
+        old_price: 70.5,
+    },
+    {
+        id: 6,
+        name: "pant",
+        category: "men",
+        image: p2, // Add .default after the imported image variable
+        new_price: 50.0,
+        old_price: 70.5,
+    },
 ];
 
 export default data_product;

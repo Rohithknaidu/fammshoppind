@@ -8,7 +8,7 @@ const Navbar=()=>{
     return (
         <div className="navbar">
             <div className="nav-logo">
-                <img src={logo} alt="" class="logo"/>
+                <img src={logo} alt="" className="logo"/>
                 <p>Shopping</p>
             </div>
             <ul className='nav-menu'>
@@ -19,7 +19,7 @@ const Navbar=()=>{
             </ul>
             <div className='nav-login-cart'>
                 <Link to='/login'><button>Login</button></Link>
-                <Link to='/cart'><img src={cart_icon} alt="" class="cart_icon"/></Link>
+                <Link to='/cart'><img src={cart_icon} alt="" className="cart_icon"/></Link>
                 <div className='nav-cart-count'>0</div>
             </div>
         </div>

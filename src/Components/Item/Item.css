@@ -5,11 +5,11 @@
     flex-direction: column;
     align-items: center; /* Center horizontally */
     text-align: center; /* Center text */
-    border: 3px solid #ddd;
-    border-radius: 10px;
+    /* border: 3px solid #ddd; */
+    /* border-radius: 10px; */
     overflow: hidden;
     margin: auto;
-    box-sizing: border-box; /* Include border in width and height */
+    /* box-sizing: border-box; Include border in width and height */
 }
 
 .item img {
