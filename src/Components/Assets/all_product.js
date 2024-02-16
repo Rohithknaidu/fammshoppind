@@ -79,7 +79,7 @@ let all_product = [
         id:9,
         name: "pant",
         category:"kids",
-        image: p1,
+        image: p9,
         new_price: 50.0,
         old_price: 70.5,
     },
@@ -108,3 +108,4 @@ let all_product = [
         old_price: 70.5,
     },
 ]
+export default all_product;
