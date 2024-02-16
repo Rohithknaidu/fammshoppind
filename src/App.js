@@ -6,6 +6,10 @@ import Product from './Pages/Product';
 import Cart from './Pages/Cart';
 import LoginSingup from './Pages/LoginSignup';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import Footer from './Components/Footer/Footer';
+import men_banner from './Components/Assets/p3.png'
+import women_banner from './Components/Assets/p1.png'
+import kid_banner from './Components/Assets/p10.png'
 function App() {
   return (
     <div >
@@ -22,6 +26,7 @@ function App() {
         <Route path="/cart" element={<Cart/>}/>
         <Route path="/login" element={<LoginSingup/>}/>
       </Routes>
+      <Footer/>
       </BrowserRouter>
       
     </div>

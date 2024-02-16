@@ -1,7 +1,7 @@
 import React from "react";
 import './Hero.css'
 import hand_icon from '../Assets/handicon.png'
-import arrow_icon from '../Assets/arrow_icon.png'
+import { IoIosArrowForward } from 'react-icons/io';
 import hero_image from '../Assets/heroicon.jpg'
 
 const Hero = () => {
@@ -20,7 +20,7 @@ const Hero = () => {
             
                 <div className='hero-latest-btn'>     
                     <div className='latest-collections-box'  >Latest Collections</div>
-                    <img src={arrow_icon} alt="" className="small-img" />
+                    <IoIosArrowForward className="small-icon" />
                 </div>
             </div>
             <div className='hero-right'>
