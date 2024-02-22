@@ -1,15 +1,24 @@
-const p1 = require("./p1.png");
-const p2 = require("./p2.png");
-const p3 = require("./p3.png");
-const p4 = require("./p4.png");
-const p5 = require("./p5.png");
-const p6 = require("./p6.png");
-const p7 = require("./p7.png");
-const p8 = require("./p8.png");
-const p9 = require("./p9.png");
-const p10 = require("./p10.png");
-const p11 = require("./p11.png");
-const p12 = require("./p12.png");
+const p1 = require ("./EFS01.jpg");
+const p2 = require ("./EGS01.jpg");
+const p3 = require ("./ELS01.jpg");
+const p4 = require ("./Eri01.jpeg");
+const p6 = require ("./Eri02.jpeg");
+const p7 = require ("./Eri03.jpeg");
+const p8 = require ("./Eri04.jpeg");
+const p9 = require ("./Eri05.jpeg");
+const p10 = require("./Eri06.jpeg");
+const p11 = require("./Eri07.jpeg");
+const p13 = require ("./Eri09.jpeg");
+const p14= require ("./Eri10.jpeg");
+const p15= require ("./Eri11.jpeg");
+const p17= require ("./Eri13.jpeg");
+const p5 = require ("./Eri14.jpeg");
+const p18= require ("./Eri15.jpeg");
+const p19 = require ("./MGS01.jpg");
+const p20 = require ("./MugaSaree.jpeg");
+const p21 = require ("./OEDS01.jpg");
+
+
 let all_product = [
     {
         id:1,
@@ -78,7 +87,7 @@ let all_product = [
     {
         id:9,
         name: "pant",
-        category:"kids",
+        category:"women",
         image: p9,
         new_price: 50.0,
         old_price: 70.5,
@@ -100,12 +109,69 @@ let all_product = [
         old_price: 70.5,
     },
     {
-        id:12,
+        id:13,
         name: "pant",
         category:"men",
-        image: p12,
+        image: p13,
         new_price: 50.0,
         old_price: 70.5,
     },
+    {
+        id:14,
+        name: "pant",
+        category:"men",
+        image: p14,
+        new_price: 50.0,
+        old_price: 70.5,
+    },
+    {
+        id:15,
+        name: "pant",
+        category:"men",
+        image: p15,
+        new_price: 50.0,
+        old_price: 70.5,
+    },
+    {
+        id:17,
+        name: "pant",
+        category:"men",
+        image: p17,
+        new_price: 50.0,
+        old_price: 70.5,
+    },
+    {
+        id:18,
+        name: "pant",
+        category:"men",
+        image: p18,
+        new_price: 50.0,
+        old_price: 70.5,
+    },
+    {
+        id:19,
+        name: "pant",
+        category:"men",
+        image: p19,
+        new_price: 50.0,
+        old_price: 70.5,
+    },
+    {
+        id:20,
+        name: "pant",
+        category:"men",
+        image: p20,
+        new_price: 50.0,
+        old_price: 70.5,
+    },
+    {
+        id:21,
+        name: "pant",
+        category:"men",
+        image: p21,
+        new_price: 50.0,
+        old_price: 70.5,
+    },
+   
 ]
 export default all_product;
